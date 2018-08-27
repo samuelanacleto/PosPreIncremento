@@ -1,1 +1,31 @@
-# PosPreIncremento
+public class PosPreIncremento {
+public static void main (String [] args) }
+int a;
+int b;
+a=0; b=0;
+b=a++ + ++a;
+System.out.println ("val I:" +b);
+a=0; b=0;
+b=a++ + a++;
+System.out.println ("val II:" +b);
+a=0; b=0;
+b=++a + a++;
+System.out.println ("val III:" +b);
+a=0; b=0;
+b=++a + ++a;
+System.out.println ("val IV:" +b);
+a=0; b=0;
+b=++a + b;
+System.out.println ("val V:" +b);
+a=0; b=0;
+b=a++ + b;
+System.out.println ("val V:" +b);
+a=0; b=0;
+b=b + ++a;
+System.out.println ("val VI:" +b);
+a=0; b=0;
+b=b + a++;
+System.out.println ("val VII:" +b);
+a=0; b=0;
+b=b + a++;
+System.out.println ("val VIII:" +b);
